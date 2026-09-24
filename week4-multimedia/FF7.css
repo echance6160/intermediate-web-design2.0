@@ -1,0 +1,70 @@
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    color:green;
+}
+
+h2 {
+    color:green;
+}
+/* This makes the color green*/
+
+/* This line of code is my heading 1 it demonstrates my font-family I chose the color green for it*/
+
+body {
+    background-color:black;
+}
+
+/* I chose the color black for my background instead of white here cause it fits the tone of the game that I am displaying for my assignment*/
+
+p {
+    color:green;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* This is my paragraph color which is green and I added some px here to adjust font-size and to set my font-family I wanted*/
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+/* I used img in my css to display my flex and to adjust my image into the center as well as my align items and the height*/
+
+.footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* I added footer at the bottom of my page to display my privacy content and contact us and also the year of this I worked on it*/
+
+#myCanvas {
+    border: 2px green;
+}  
+
+
+/*var gradient= ctx.createlineargradient(0,0,400,150);*/
+
+/*gradient.addcolorstop(0,'green');
+        gradient.addcolorstop(1,'gray');*/
+
+        /*<canvas id="myCanvas" width="400" height="150"></canvas>
+        <script>
+        var c = document.getElementById('myCanvas');
+        var ctx = c.getContext('2d');
+        
+        
+
+        
+
+        ctx.fillStyle = 'lightgray';
+        ctx.fillrect(0,0,400,150);
+
+        ctx.font = 'bold 24px Times New Roman';
+        ctx.fillstyle = 'green';
+        ctx.fillText('Final fantasy VII',50,80);
+        </script>*/
+
+

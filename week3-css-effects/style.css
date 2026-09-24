@@ -1,0 +1,204 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+:root {
+  --start-width: 14em;
+  --intro-width: 15em;
+  --titles-width: 18em;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font: 700 1em "News Cycle", sans-serif;
+  letter-spacing:.15em;
+	color: #ff6;
+	background: #000;
+	overflow: hidden;
+  margin: 0;
+}
+/*this has my percents and font style for my project and incorporated some ems in here as well as the color and background*/
+.starwars section {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    z-index: 1;
+  }  
+  /* this controls my star wars section font size and width variations text alignment I added z-index into this section to place it in front is what it's supposed to do*/
+  .starwars .start {
+    font-size: 200%;
+
+    width: var(--start-width);
+    
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top:45%;
+    transform: translateX(-50%);
+    margin-top: -4em;
+    
+    .starwars .start span {
+      color:rgb(75, 213, 238); 
+    }
+  } 
+  /*star wars start screen simply click on the screen to start it with the transform to get things rolling I played with the font a bit but 200 percent is better*/   
+  
+  .starwars .intro {
+  	width: var(--intro-width);
+    
+	  font-size: 200%;
+	  font-weight: 400;
+  	color: rgb(75, 213, 238);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+	  animation: intro 6s ease-out 1s;
+  }
+  /*this controls the intro and it's font sizing weight color and position was supposed to be blue don't know why I didn't see it*/
+  
+  .starwars .logo {
+    opacity: 0;
+    animation: logo 9s ease-out 9s; 
+    
+    .starwars .logo svg {
+      width: inherit;
+    }
+  }
+  /* this controls the starwars logo animation how long it transitions before getting to the star wars theme*/
+  
+  
+.starwars .titles {
+width: var(--titles-width, 60%);
+top: auto;
+bottom: 0;
+height: 50em;
+font-size: 300%;
+text-align: justify;
+overflow: hidden;
+transform-origin: 50% 100%;
+position: absolute;
+left: 50%;
+transform: translateX(-50%) perspective(300px) rotateX(25deg);
+animation: titles 81s linear 0s;
+z-index: 9999;
+}
+
+/* this controls the starwars titles text alignment and supposed to transform into like the crawl but for some reason my crawl would not work*/
+
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }  
+	19% { 
+    opacity: 1; 
+  }
+	90% { 
+    opacity: 1; 
+  }
+	100% { 
+    opacity: 0;
+  }
+}
+
+@keyframes logo {
+	0% { 
+    --logo-width:14em;
+  	width: var(--logo-width);
+    margin: 0 0 0 calc(var(--logo-width) / -2);
+    transform: translate(-50%, -50%); 
+    opacity: 1; 
+  }
+
+	50% { 
+    opacity: 1; 
+    logo-width: 17em;
+  	width: logo-width;
+    margin: 0 0 calc(var(--logo-width) / -2);
+  }
+	100% { 
+   transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0;
+    --logo-width: 17em;
+  	width: 200px
+    
+  }
+}
+
+@keyframes titles {
+0% {
+top: 100%; /* Starts higher up so you can immediately see it */
+transform: translateX(-50%) perspective(300px) rotateX('25deg');
+opacity: 1;
+}
+100% {
+  top: -120%;
+  transform: translateX(-50%) perspective(300px) rotateX('25deg');
+  opacity: 1;
+}
+}
+
+
+
+.starwars .titles div {
+  position: absolute;
+  width: 100%;
+}
+
+.starwars .titles p {
+  margin: 1.35em 0 1.85em 0;
+  line-height: 1.35em;
+  backface-visibility:hidden;
+  color:#ffc107;
+}
+
+/* this makes the text you see at the start screen yellow but is also supposed to make the text yellow I had it red but guess I had to change it*/
+
+
+/*.star-ripple {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+}
+ .star-ripple::before,
+  .star-ripple::after, {
+   content:'';
+   position: absolute;
+   left: 50%;
+    top: 50%;
+   border: 2px solid white;
+   border-radius: 50%;
+   transform: translate(-50%, -50%);
+   animation:ripple 2s infinite;
+   }
+
+.star-ripple::after {
+  animation-delay: 1s;
+}
+.star-ripple span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 10px white;
+}
+@keyframes ripple {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0%;
+  }
+}
+*/

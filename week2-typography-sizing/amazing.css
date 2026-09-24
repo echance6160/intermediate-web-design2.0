@@ -1,0 +1,78 @@
+
+
+h1 {
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+/* I chose the first sentence at the bottom of the poster to be h1 cause it's more of a introduction before I go into my review paragraphs*/
+
+h3 {
+    color:red;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* I used em here tfor my font-sizing and Arial here as well I wanted my colors to be red for the color to match the poster.*/
+
+.site-title {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* I used Times new romans for the title cause I like how basically professional it looks Lol*/
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+/* This is where I used px to choose the width of the center image I had trouble adjusting the size but I believe this fixed it*/
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+/* I added image-container to help display my poster in the center of the page I was aiming for it to be in the center and used a lil bit what I learned in the previous assignment*/
+
+p {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+}
+/* I used percentage for the font-family Arial to change the sizing of the text*/
+
+p {
+    font-size: 1.2em;
+}
+
+.poster {
+    width: 500px;
+}
+/* I used px here to make the poster bigger I think it enlarged it a bit cause at first it was quite small*/ 
+
+.typography img {
+    width: 500px;
+    height: auto;
+}
+/* used typography image to match what I had in html it was poster but i had to change it to match the name of my folder that had my image in it*/
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+body {
+    background-color:black;
+}
+/* I wanted my background to be black to show the red some more i think it makes the page pop especially for a spider-man web page review*/
+
+.date {
+    color:blue;
+    font-size: 1.2rem; 
+}
+/* I used rem for the date to adjust the font to how i wanted it to where it would look pretty pleasant in size*/
+
+
+
