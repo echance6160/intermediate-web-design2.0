@@ -16,3 +16,6 @@ I thought that I would make a showcase page demonstrating A game I am fond of an
 I also showcased audio of the original theme for Final fantasy 7!!!, It is a classic and very Harmonizing I wish I could have kept the videos in the file from that assignment,
 however I could not get the extra mb needed to upload that extra amount of content.
 I would like to develop websites for gaming companies especially for promotion which I think would be very cool to create and utilize.
+
+After utilizing everything in my multimedia page showcase I had to figure out how to get the videos and audio I wanted into mp4 files so I recorded them and uploaded
+to my Project folder which I was very happy with.
