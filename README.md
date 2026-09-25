@@ -1,21 +1,17 @@
-# Intermediate-web-design2.0
-course projects
-Name: Eli Chance
-Course: CSCT 230 Intermediate Web Design
+# CSCT 230 Intermediate Web Design
 
-This repository contains my weekly web design projects.
+**Name:** Eli Chance
 
-Projects Included:
-Week 1: Responsive web store layout
-Week 2: Typography & Responsive sizing
-Week 3: CSS Effects Interaction Project
-week 4: Multimedia Showcase Page
+This repository contains my weekly web design projects for the semester. The purpose of this repository is to showcase my skills in responsive web design, custom typography, advanced CSS transitions, and multimedia web integration.
 
-My Favorite project so far is the Multimedia showcase because I got to design a webpage showcasing one of my favorite video games coming out later this year.
-I thought that I would make a showcase page demonstrating A game I am fond of and can't wait to play on PS5 in spring 2027, I showcased actual trailers demonstrating the gameplay.
-I also showcased audio of the original theme for Final fantasy 7!!!, It is a classic and very Harmonizing I wish I could have kept the videos in the file from that assignment,
-however I could not get the extra mb needed to upload that extra amount of content.
-I would like to develop websites for gaming companies especially for promotion which I think would be very cool to create and utilize.
+## What I've Learned
 
-After utilizing everything in my multimedia page showcase I had to figure out how to get the videos and audio I wanted into mp4 files so I recorded them and uploaded
-to my Project folder which I was very happy with.
+During this **project** and setting up this repository, I have learned several core concepts about Git and GitHub:
+* How to organize loose code files into cleanly structured, lowercase directories using hyphens.
+* How to use the GitHub web interface to stage and commit multiple project files simultaneously directly to the main branch.
+* How to write and format a structured documentation file using **Markdown syntax** to present project details professionally.
+
+You can view the full repository history and structure on [GitHub](https://github.com)
+
+
+
